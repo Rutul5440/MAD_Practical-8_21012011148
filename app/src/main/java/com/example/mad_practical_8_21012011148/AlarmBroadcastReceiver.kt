@@ -8,6 +8,7 @@ import android.telephony.TelephonyCallback.DataActivationStateListener
 class AlarmBroadcastReceiver : BroadcastReceiver() {
 
     companion object{
+
         val ALARMKEY = "key"
         val ALARMSTART = "start"
         val ALARMSTOP = "stop"
